@@ -1,5 +1,5 @@
 # SSH
-
+## 总教程
 【ubuntu安装ssh,设置开机自启动 -  CSDN App】https://blog.csdn.net/mankeywang/article/details/133708714?sharetype=blogdetail&shareId=133708714&sharerefer=APP&sharesource=2301_79422411&sharefrom=link
 
 ## 安装net-tools和openssh-server
