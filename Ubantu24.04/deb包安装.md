@@ -6,6 +6,6 @@ Ubantu基于Debian，所以在下载时请选择.deb安装包
 ```
 sudo dpkg -i 安装包名
 ```
-一些常用软件的下载页面
+一些常用软件的下载页面  
 Vscode：https://code.visualstudio.com/download  
 QQ：https://im.qq.com/linuxqq/index.shtml  
