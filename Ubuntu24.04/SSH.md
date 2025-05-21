@@ -7,15 +7,15 @@
 sudo apt-get install net-tools
 sudo apt-get install openssh-server
 ```
-## 开机自启动ssh（一般都是默认启动）
+## 开机自启动ssh（一般已经设置）
 ```
 sudo systemctl enable ssh
 ```
 ## 查看是否开启ssh服务
 ```
-dpkg -l | grep ssh	
+sudo systemctl status vsftpd
 ```
-如果看到```sshd```那说明ssh-server已经启动
+如果看到```active```那说明ssh-server已经启动
 如果没有则可以这样启动：
 ```
 sudo service ssh start
@@ -29,7 +29,7 @@ ssh-server配置文件位于```/etc/ssh/sshd_config```，在这里可以定义SS
 ssh 用户名@ip地址
 ```
 比如chris @192.168.123.121
-chris是地址为192.168.123.121机器上的一名用户，需要输入密码
+用户名填ubuntu系统的用户名（就是系统开机登录界面显示的那个），密码填这个用户的密码
 ## 断开连接
 ```putty-sh
 exit
